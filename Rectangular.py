@@ -20,9 +20,7 @@ st.write("""
 
 st.write('---')
 
-df=pd.read_excel(r"/Users/deeptarkaroy/Desktop/Thesis/Recatngular dataset .xlsx")
-#st.subheader("Description of Dataset")
-#st.write(df.describe())
+df=pd.read_csv(r"/Users/deeptarkaroy/Desktop/Thesis/Recatngular dataset .csv")
 
 x=df.drop(["N_Test"],axis=1)
 y=df["N_Test"]
