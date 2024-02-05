@@ -7,3 +7,4 @@ shap==0.43.0
 streamlit==1.27.2
 xgboost==2.0.3
 xlrd<2.0
+openpyxl
