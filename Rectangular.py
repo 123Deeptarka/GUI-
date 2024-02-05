@@ -20,7 +20,7 @@ st.write("""
 
 st.write('---')
 
-df=pd.read_excel(r"/Users/deeptarkaroy/Desktop/Recatngular dataset .xlsx")
+df=pd.read_excel(r"/Users/deeptarkaroy/Desktop/Thesis/Recatngular dataset .xlsx)
 #st.subheader("Description of Dataset")
 #st.write(df.describe())
 
