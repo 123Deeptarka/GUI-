@@ -20,7 +20,7 @@ st.write("""
 
 st.write('---')
 
-df=pd.read_csv(r"/Users/deeptarkaroy/Desktop/Thesis/Recatngular dataset .csv")
+df=pd.read_csv("/Users/deeptarkaroy/Desktop/Thesis/Recatngular dataset .csv")
 
 x=df.drop(["N_Test"],axis=1)
 y=df["N_Test"]
